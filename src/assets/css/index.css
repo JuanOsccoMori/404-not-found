@@ -5,9 +5,11 @@
 * {
     padding: 0;
     border: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-body {
+.wrapper {
     position: relative;
     width: 1440px;
     height: 1080px;
@@ -15,10 +17,10 @@ body {
 }
 
 
-@media screen and(max-width: 800px) {
-    body {
+@media screen and (max-width: 800px) {
+    .wrapper {
         position: relative;
         width: 375px;
-        height: 949px;
+        height: 950px;
     }
 }

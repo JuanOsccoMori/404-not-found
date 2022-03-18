@@ -68,11 +68,12 @@
 }
 
 @media screen and (max-width: 800px){
+    
     .content-1 img {
         position: absolute;
         width: 286.83px;
         height: 238px;
-        left: 11.73%;
+        left: 5%;
         right: 11.78%;
         top: 11.49%;
         bottom: 63.44%;
