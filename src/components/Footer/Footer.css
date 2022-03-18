@@ -1,0 +1,32 @@
+.footer p {
+    position: absolute;
+    width: 287px;
+    height: 17px;
+    left: 577px;
+    top: 1039px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-align: center;
+    color: #BDBDBD;
+}
+
+.footer p .link {
+    font-family: 'Montserrat';
+    font-weight: 700, bold;
+    color: #BDBDBD;
+}
+
+@media screen and (max-width: 800px){
+    .footer p {
+        position: absolute;
+        width: 287px;
+        height: 17px;
+        left: 46px;
+        top: 908px;
+    }
+}
